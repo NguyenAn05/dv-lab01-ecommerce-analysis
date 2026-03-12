@@ -527,6 +527,10 @@ def crawl_reviews_pipeline(products_file: str = None, output_file: str = None,
     os.makedirs(RAW_REVIEWS_DIR, exist_ok=True)
     completed_set = _get_completed_products()
 
+    # If resuming mid-product, don't count it as completed
+    if state["status"] == "in_progress" and state.get("current_product_id") and state.get("current_page", 0) > 0:
+        completed_set.discard(state["current_product_id"])
+
     # Filter remaining products
     remaining = products_to_crawl[~products_to_crawl['product_id'].isin(completed_set)]
     state["total_products"] = len(products_to_crawl)
