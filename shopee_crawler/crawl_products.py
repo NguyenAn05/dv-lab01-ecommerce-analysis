@@ -14,52 +14,52 @@ CATEGORIES = [
         "name": "Thời trang Nam", 
         "catid": "11035567",
         "sub_categories": [
-            # {"name": "Áo Khoác", "catid": "11035568"},
-            # {"name": "Áo Vest và Blazer", "catid": "11035572"},
-            # {"name": "Áo Hoddie, Áo Len & Áo Nỉ", "catid": "11035578"},
+            {"name": "Áo Khoác", "catid": "11035568"},
+            {"name": "Áo Vest và Blazer", "catid": "11035572"},
+            {"name": "Áo Hoddie, Áo Len & Áo Nỉ", "catid": "11035578"},
             {"name": "Quần Jeans", "catid": "11035583"},
-            # {"name": "Quần Dài/Quần Âu", "catid": "11035584"},
+            {"name": "Quần Dài/Quần Âu", "catid": "11035584"},
             {"name": "Quần Short", "catid": "11035590"},
             {"name": "Áo", "catid": "11035592"},
-            # {"name": "Áo Ba Lỗ", "catid": "11035597"},
+            {"name": "Áo Ba Lỗ", "catid": "11035597"},
             {"name": "Đồ Lót", "catid": "11035598"},
             {"name": "Đồ Ngủ", "catid": "11035603"},
-            # {"name": "Đồ Bộ", "catid": "11035604"},
+            {"name": "Đồ Bộ", "catid": "11035604"},
             {"name": "Vớ Tất", "catid": "11035605"},
             {"name": "Trang Phục Truyền Thống", "catid": "11035606"},
             {"name": "Đồ Hóa Trang", "catid": "11035611"},
-            # {"name": "Trang Phục Ngành Nghề", "catid": "11035612"},
-            {"name": "Khác", "catid": "11035613"}
-            # {"name": "Trang Sức Nam", "catid": "11035614"},
-            # {"name": "Kính Mắt Nam", "catid": "11035620"},
-            # {"name": "Thắt Lưng Nam", "catid": "11035625"},
-            # {"name": "Cà vạt & Nơ cổ", "catid": "11035626"},
-            # {"name": "Phụ Kiện Nam", "catid": "11035627"}
+            {"name": "Trang Phục Ngành Nghề", "catid": "11035612"},
+            {"name": "Khác", "catid": "11035613"},
+            {"name": "Trang Sức Nam", "catid": "11035614"},
+            {"name": "Kính Mắt Nam", "catid": "11035620"},
+            {"name": "Thắt Lưng Nam", "catid": "11035625"},
+            {"name": "Cà vạt & Nơ cổ", "catid": "11035626"},
+            {"name": "Phụ Kiện Nam", "catid": "11035627"}
         ]
     },
     {
         "name": "Thời trang Nữ", 
         "catid": "11035639",
         "sub_categories": [
-            # {"name": "Quần", "catid": "11035648"},
+            {"name": "Quần", "catid": "11035648"},
             {"name": "Quần đùi", "catid": "11035652"},
-            # {"name": "Chân váy", "catid": "11035656"},
+            {"name": "Chân váy", "catid": "11035656"},
             {"name": "Quần jeans", "catid": "11035657"},
-            # {"name": "Đầm/Váy", "catid": "11035658"},
-            # {"name": "Váy cưới", "catid": "11035659"},
-            # {"name": "Đồ liền thân", "catid": "11035660"},
-            # {"name": "Áo khoác, Áo choàng & Vest", "catid": "11035665"},
-            # {"name": "Áo len & Cardigan", "catid": "11035672"},
-            # {"name": "Hoodie và Áo nỉ", "catid": "11035673"},
-            # {"name": "Bộ", "catid": "11035677"},
+            {"name": "Đầm/Váy", "catid": "11035658"},
+            {"name": "Váy cưới", "catid": "11035659"},
+            {"name": "Đồ liền thân", "catid": "11035660"},
+            {"name": "Áo khoác, Áo choàng & Vest", "catid": "11035665"},
+            {"name": "Áo len & Cardigan", "catid": "11035672"},
+            {"name": "Hoodie và Áo nỉ", "catid": "11035673"},
+            {"name": "Bộ", "catid": "11035677"},
             {"name": "Đồ lót", "catid": "11035682"},
             {"name": "Đồ ngủ", "catid": "11035692"},
             {"name": "Áo", "catid": "11035640"},
-            # {"name": "Đồ tập", "catid": "11035730"},
-            # {"name": "Đồ Bầu", "catid": "11035697"},
+            {"name": "Đồ tập", "catid": "11035730"},
+            {"name": "Đồ Bầu", "catid": "11035697"},
             {"name": "Đồ truyền thống", "catid": "11035705"},
             {"name": "Đồ hóa trang", "catid": "11035711"},
-            # {"name": "Vải", "catid": "11035713"},
+            {"name": "Vải", "catid": "11035713"},
             {"name": "Vớ/ Tất", "catid": "11035726"},
             {"name": "Khác", "catid": "11035712"}
         ]
@@ -67,7 +67,7 @@ CATEGORIES = [
 ]
 
 # Output directory
-OUTPUT_DIR = "shopee_data"
+OUTPUT_DIR = "../data/raw"
 MAX_PAGES = None # Will be set by crawl_products_pipeline()
 
 # ============================================================

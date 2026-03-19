@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime
 from shopee_utils import connect_to_chrome, get_api_response, random_delay, check_blocked
 
-OUTPUT_DIR = "shopee_data"
+OUTPUT_DIR = "../data/raw"
 
 # Longer delay for shop crawling to avoid rate limit
 SHOP_MIN_DELAY = 5
